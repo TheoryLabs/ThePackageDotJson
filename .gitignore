@@ -118,4 +118,7 @@ dist
 .pnp.*
 
 # Project speciffic
+_data_/__BACKUP__
 _data_/
+_data_/*
+_data_
