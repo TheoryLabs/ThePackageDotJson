@@ -1,0 +1,10 @@
+{
+  "name": "@theorylabs/the-pkgdotjson",
+  "version": "1.0.0",
+  "description": "A library aiming to offer nothing but documentation as its output. No compositional approach made in how or where the output reflects. Only boring ole' conventions, as the dev community has defined. NPM and Yarn. Their official docs covering the subject, abstracted from static HTML into various formats making querying against said data much, much easier. ",
+  "main": "src/index.js",
+  "repository": "https://github.com/TheoryLabs/ThePackageDotJson",
+  "author": "Branden Dane <BDane@TheoryLabs.dev> (https://TheoryLabs.dev)",
+  "license": "MIT",
+  "private": false
+}
