@@ -21,7 +21,8 @@
   "module": "./dist/index.mjs",
   "scripts": {
     "dev": "microbundle watch",
-    "build": "microbundle"
+    "build": "microbundle",
+    "release": "np"
   },
   "devDependencies": {
     "microbundle": "^0.13.3",
