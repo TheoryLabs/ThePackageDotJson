@@ -1,6 +1,6 @@
 {
   "name": "@theorylabs/the-package-dot-json",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A library aiming to offer nothing but documentation as its output. No compositional approach made in how or where the output reflects. Only boring ole' conventions, as the dev community has defined. NPM and Yarn. Their official docs covering the subject, abstracted from static HTML into various formats making querying against said data much, much easier. ",
   "repository": "https://github.com/TheoryLabs/ThePackageDotJson",
   "author": "Branden Dane <BDane@TheoryLabs.dev> (https://TheoryLabs.dev)",
@@ -11,13 +11,13 @@
     "contents": "build"
   },
   "files": [
-  	"./dist/*",
-  	"./dist/**",
-  	"./dist/**/*"
+    "./dist/*",
+    "./dist/**",
+    "./dist/**/*"
   ],
   "type": "module",
   "source": "src/index.js",
-  "main": "./dist/index.cjs", 
+  "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "scripts": {
     "dev": "microbundle watch",
@@ -31,7 +31,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "source": "src/index.js", 
+    "source": "src/index.js",
     "main": "./dist/index.cjs",
     "module": "./dist/index.mjs"
   }
