@@ -22,7 +22,8 @@
   "scripts": {
     "dev": "microbundle watch",
     "build": "microbundle",
-    "release": "np"
+    "release": "np",
+    "pub": "yarn publish --access public"
   },
   "devDependencies": {
     "microbundle": "^0.13.3",
