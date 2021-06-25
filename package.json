@@ -6,5 +6,18 @@
   "repository": "https://github.com/TheoryLabs/ThePackageDotJson",
   "author": "Branden Dane <BDane@TheoryLabs.dev> (https://TheoryLabs.dev)",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "np": {		
+    "yarn": true,
+    "contents": "build"	
+  },
+  "scripts": {		
+    "release": "np"	
+  },	
+  "devDependencies": {		
+    "np": "*"	
+  },
+  "publishConfig": {	
+    "access": "public"
+  }
 }
