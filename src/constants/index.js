@@ -1,5 +1,5 @@
 const CONSTANTS = {
-  hello: 'world'
+  PING: 'pong'
 }
 
 

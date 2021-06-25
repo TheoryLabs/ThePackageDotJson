@@ -1,5 +1,13 @@
+import { CONSTANTS } from './constants'
+
+
+const {
+  PING
+} = CONSTANTS
+
 const ThePackageDotJson = {
-  hello: 'world'
+  hello: 'world',
+  PING
 }
 
 
